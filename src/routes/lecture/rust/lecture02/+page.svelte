@@ -1,0 +1,1 @@
+<h1>this ia lecture02 for Rust</h1>
