@@ -11,8 +11,13 @@
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.20.4",
+		"@types/prismjs": "^1.26.1",
 		"svelte": "^4.0.5",
 		"vite": "^4.4.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"babel-plugin-prismjs": "^2.1.0",
+		"prismjs": "^1.29.0"
+	}
 }
