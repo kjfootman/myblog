@@ -1,0 +1,25 @@
+html, body {
+    background-color: azure;
+    font-size: 15px;
+}
+
+main {
+    margin: 0;
+}
+
+p {
+    line-height: 2em;
+}
+
+p::before {
+    content: '\00a0\00a0';
+}
+
+th, td {
+    padding: 5px;
+    line-height: 40px;
+}
+
+/* table td{
+    padding: 10px;
+} */

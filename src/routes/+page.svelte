@@ -1,12 +1,4 @@
 <script>
-	// import Prism from 'prismjs';
-	import 'prismjs'
-	import 'prismjs/components/prism-rust'
-	import 'prismjs/plugins/file-highlight/prism-file-highlight'
-	import 'prismjs/plugins/line-numbers/prism-line-numbers'
-	import 'prismjs/plugins/line-highlight/prism-line-highlight'
-	
-
 	function set_src(arg1, arg2) {
 		document.getElementById("frame").src = "/lecture/rust/lecture" + arg2 + "/";
 	}
@@ -14,8 +6,6 @@
 	let code = "fn main() { \
 	}";
 		
-	// Prism.highlightAll();
-	// Prism.highlight(code, rust, 'javascript');
 </script>
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
@@ -44,18 +34,11 @@
 	<footer>footer</footer>
 	
 	<!-- <pre class="line-numbers"><code class="language-rust">{code}</code></pre> -->
-	<pre data-src="rust/lecture01/example/examples/ex1-1.rs" class="line-numbers language-rust" data-line="10"></pre>
+	<!-- <pre data-src="rust/lecture01/example/examples/ex1-1.rs" class="line-numbers language-rust" data-line="10"></pre> -->
 </main>
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
 <style>
-	/* @import  */
-	/* @import "../../node_modules/prismjs/themes/prism.min.css"; */
-	/* @import "../../node_modules/prismjs/themes/prism-coy.min.css"; */
-	@import "../../node_modules/prismjs/themes/prism-okaidia.min.css";
-	@import "../../node_modules/prismjs/plugins/line-numbers/prism-line-numbers.min.css";
-	@import "../../node_modules/prismjs/plugins/line-highlight/prism-line-highlight.min.css";
-
 	:global(body, html) {
 		margin: 0;
 		height: 100%;
@@ -96,8 +79,7 @@
 		padding: 0;
 		border: none;
 		float: left;
-
-		background-color: yellow;
+		/* background-color: yellow; */
 	}
 
 	footer {
