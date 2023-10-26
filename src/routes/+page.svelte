@@ -5,17 +5,20 @@
 	
 	let code = "fn main() { \
 	}";
-		
+	
+	function test() {
+		document.getElementById("frame").contentWindow.print();
+	}
 </script>
 
-<!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+<!----------------------------------------------------------------------------------------------------------------------------------- -->
 <svelte:head>
 	<title>this ia a my test</title>
 </svelte:head>
 
 <main class="line-numbers">
 	<header>
-		header
+		coding sloth
 	</header>
 	<section class="content">
 		<nav>
@@ -24,14 +27,18 @@
 					<span>Rust</span>
 				</summary>
 				<ul class="nav-tree">
-					<li><a on:click={() => set_src('rust', '01')} href="/">lecture01</a></li>
-					<li><a on:click={() => set_src('rust', '02')} href="/">lecture02</a></li>
+					<li><a on:click={() => set_src('rust', '01')} href="/">[Rust01] 변수의 선언과 출력</a></li>
+					<li><a on:click={() => set_src('rust', '02')} href="/">[Rust02] 변수의 종류</a></li>
+					<li><a on:click={() => set_src('rust', '03')} href="/">[Rust03] 함수 사용하기</a></li>
 				</ul>
 			</details>
 		</nav>
 		<iframe src="/introduction" id="frame" title="sub"></iframe>
 	</section>
-	<footer>footer</footer>
+	<footer>
+		footer
+		<!-- <button on:click={test}>print</button> -->
+	</footer>
 	
 	<!-- <pre class="line-numbers"><code class="language-rust">{code}</code></pre> -->
 	<!-- <pre data-src="rust/lecture01/example/examples/ex1-1.rs" class="line-numbers language-rust" data-line="10"></pre> -->
@@ -39,15 +46,17 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
 <style>
+	@import "/static/css/common.css";	
+
 	:global(body, html) {
 		margin: 0;
 		height: 100%;
 		background-color: azure;
 
-		--header-height: 70px;
-		--footer-height: 50px;
+		--header-height: 50px;
+		--footer-height: 30px;
 		--border-thickness: 2px;
-		--nav-width: 350px;
+		--nav-width: 300px;
 	} 
 
 	main {

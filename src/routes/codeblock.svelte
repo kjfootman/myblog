@@ -15,10 +15,11 @@
 
 <style>
     .codeblock {
-        margin: 0 auto;
+        margin: 20px auto;
         padding: 0;
-        width: 80%;
+        width: 75%;
         height: 100%;
+        font-size: 13px;
     }
 
     .codecaption {

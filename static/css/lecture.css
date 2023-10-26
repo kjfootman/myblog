@@ -1,25 +1,78 @@
 html, body {
     background-color: azure;
     font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.05em;
+    word-spacing: 0.1em;
 }
 
 main {
-    margin: 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+article {
+    margin-bottom: 5em;
 }
 
 p {
-    line-height: 2em;
+    line-height: 1.7em;
 }
 
 p::before {
-    content: '\00a0\00a0';
+    content: '\00a0';
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    margin-bottom: 40px;
 }
 
 th, td {
     padding: 5px;
     line-height: 40px;
+    border: 1px solid black;
 }
 
-/* table td{
-    padding: 10px;
-} */
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+figcaption {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.7em;
+}
+
+.title::before {
+    content: '-\00a0\00a0';
+}
+
+.summary > li {
+    line-height: 30px;
+}
+
+.example {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+
+.highlight {
+    background-color: lemonchiffon;
+    font-weight: bolder;
+    font-style: italic;
+    color: crimson;
+}
+
+.printBtn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
