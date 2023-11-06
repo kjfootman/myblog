@@ -1,0 +1,82 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'fvm'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=fvm",
+                    "--package=fvm"
+                ],
+                "filter": {
+                    "name": "fvm",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'fvm'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=fvm",
+                    "--package=fvm"
+                ],
+                "filter": {
+                    "name": "fvm",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'ex9_1'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=ex9_1",
+                    "--package=fvm"
+                ],
+                "filter": {
+                    "name": "ex9_1",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'ex9_1'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=ex9_1",
+                    "--package=fvm"
+                ],
+                "filter": {
+                    "name": "ex9_1",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

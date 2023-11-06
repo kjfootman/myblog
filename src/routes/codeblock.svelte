@@ -25,5 +25,6 @@
     .codecaption {
         width: 100%;
         text-align: center;
+        font-weight: bold;
     }
 </style>

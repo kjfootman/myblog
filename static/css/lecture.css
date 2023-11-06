@@ -46,6 +46,10 @@ figcaption {
     text-align: center;
 }
 
+/* summary > span{
+    cursor: pointer;
+} */
+
 .title {
     font-size: 1.7em;
 }
@@ -75,4 +79,20 @@ figcaption {
     position: fixed;
     top: 10px;
     left: 10px;
+}
+
+details .codesummary {
+    color: red;
+}
+
+details[open] .codesummary > span::after {
+    content: "\00a0접기";
+}
+
+details .codesummary > span::after {
+    content: "\00a0보기";
+}
+
+.codesummary > span {
+    cursor: pointer;
 }
