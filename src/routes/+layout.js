@@ -1,6 +1,6 @@
 export const prerender = true;
 export const trailingSlash = 'always';
-// export const ssr = false;
+
 // import css of prismjs
 import 'prismjs/themes/prism-okaidia.min.css'
 import 'prismjs/plugins/line-numbers/prism-line-numbers.min.css'

@@ -1,6 +1,6 @@
 <script>
 	function set_src(arg1, arg2) {
-		document.getElementById("frame").src = "./lecture/rust/lecture" + arg2 ;
+		document.getElementById("frame").src = "./lecture/rust/lecture" + arg2;
 	}
 	
 	let code = "fn main() { \
