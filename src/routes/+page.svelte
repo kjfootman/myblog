@@ -1,6 +1,6 @@
 <script>
 	function set_src(arg1, arg2) {
-		document.getElementById("frame").src = "./lecture/rust/lecture" + arg2 + ".html";
+		document.getElementById("frame").src = "./lecture/rust/lecture" + arg2 ;
 	}
 	
 	let code = "fn main() { \
@@ -34,7 +34,7 @@
 				</ul>
 			</details>
 		</nav>
-		<iframe src="./introduction.html" id="frame" title="sub"></iframe>
+		<iframe src="./introduction" id="frame" title="sub"></iframe>
 	</section>
 	<footer>
 		footer
