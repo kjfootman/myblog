@@ -34,7 +34,7 @@
 				</ul>
 			</details>
 		</nav>
-		<iframe src="/introduction" id="frame" title="sub"></iframe>
+		<iframe src="./introduction" id="frame" title="sub"></iframe>
 	</section>
 	<footer>
 		footer
