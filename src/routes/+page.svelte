@@ -27,7 +27,7 @@
 					<span>Rust</span>
 				</summary>
 				<ul class="nav-tree">
-					<li><a on:click={() => set_src('rust', '01')}>[Rust01] 변수의 선언과 출력</a></li>
+					<li><a on:click={() => set_src('rust', '01')} href="#">[Rust01] 변수의 선언과 출력</a></li>
 					<li><a on:click={() => set_src('rust', '02')} href="#">[Rust02] 변수의 종류</a></li>
 					<li><a on:click={() => set_src('rust', '03')} href="#">[Rust03] 함수 사용하기</a></li>
 					<li><a on:click={() => set_src('rust', '04')} href="#">[Rust04] 흐름 제어하기</a></li>
