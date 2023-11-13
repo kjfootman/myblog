@@ -1,5 +1,5 @@
 export const prerender = true;
-export const trailingSlash = 'always';
+// export const trailingSlash = 'always';
 
 // import css of prismjs
 import 'prismjs/themes/prism-okaidia.min.css'

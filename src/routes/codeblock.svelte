@@ -19,7 +19,7 @@
         padding: 0;
         width: 75%;
         height: 100%;
-        font-size: 13px;
+        font-size: 1em;
     }
 
     .codecaption {

@@ -1,4 +1,5 @@
 <script>
+
 	function set_src(arg1, arg2) {
 		document.getElementById("frame").src = "./lecture/rust/lecture" + arg2;
 	}
@@ -35,7 +36,7 @@
 			</details>
 		</nav>
 		<!-- <iframe src="./introduction" id="frame" title="sub"></iframe> -->
-		<iframe src="./lecture/rust/lecture01" id="frame" title="sub"></iframe>
+		<iframe src="./introduction" id="frame" title="sub"></iframe>
 	</section>
 	<footer>
 		footer

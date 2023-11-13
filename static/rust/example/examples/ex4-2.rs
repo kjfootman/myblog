@@ -17,7 +17,7 @@ fn main() {
 
     // 1부터 10까지 더하기 - 인덱스를 이용하는 방법
     for i in 0..arr.len() {
-        sum1 += arr[i];
+        sum1 = sum1 + arr[i];
     }
     println!("인덱스를 이용하는 방법");
     println!("1부터 10까지 합은 {sum1} 입니다");
